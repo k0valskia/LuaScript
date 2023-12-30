@@ -1,3 +1,5 @@
+-- created by @maulani
+
 local file = io.open("path.txt", "r")
 if not file then
     error("File path.txt tidak dapat dibuka.")
